@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:fontFamily="sans-serif-condensed-light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#4285F4"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Questions"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Under which of the following Android is licensed ?"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OSS"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="10dp"/>
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sourceforge"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="10dp"/>
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apache/MIT"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="10dp"/>
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None of the above"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="10dp"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4285F4"
+            android:text="Next >" />
+
+    </LinearLayout>
+
+</LinearLayout>

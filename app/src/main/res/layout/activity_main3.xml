@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:fontFamily="sans-serif-condensed-light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#4285F4"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Questions"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which of these are extensions of image files ?"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PNG"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="10dp"/>
+                <CheckBox
+                    android:id="@+id/checkbox2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MP3"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="10dp"/>
+                <CheckBox
+                    android:id="@+id/checkbox3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TIFF"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="10dp"/>
+                <CheckBox
+                    android:id="@+id/checkbox4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JPG"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="10dp"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4285F4"
+            android:text="Next >" />
+
+    </LinearLayout>
+
+</LinearLayout>
